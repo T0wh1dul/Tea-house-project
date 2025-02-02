@@ -21,6 +21,7 @@
                     colors: {
                         clifford: '#da373d',
                     }
+                    
                 }
             }
         }
@@ -35,7 +36,7 @@
     </style>
 </head>
 
-<body>
+<body class="manrope">
     <main class="max-w-screen-xl mx-auto px-6 lg:px-28">
 
         <!-- header section -->
@@ -184,7 +185,7 @@
 
                     <!-- middle card -->
                     <div class="absolute z-10 top-44 md:top-52">
-                        <div class=" h-56 w-full md:w-3/4 bg-white text-black rounded-lg flex items-center    px-4 ">
+                        <div class=" h-56 w-full md:w-3/4 bg-white text-black rounded-lg flex items-center    pl-6 pr-4 ">
 
                             <div class="absolute -top-5 -left-5 bg-white rounded-full"> <img class="p-1"
                                     src="images/client.png" alt=""></div>
@@ -244,7 +245,7 @@
 
         </section>
         <!-- News and event section -->
-        <section>
+        <section class="">
             <div class="text-center">
                 <h2 class="font-bold text-5xl py-3 ">News & Events</h2>
                 <p class="text-gray-500 py-3 w-4/5 mx-auto">There are many variations of passages of Lorem Ipsum
@@ -253,29 +254,32 @@
 
                 <div class=" flex flex-col md:flex-row items-center gap-3  md:pl-2">
 
-                    <div class=" text-left my-8 rounded-xl">
+                    <div class=" text-left my-8 rounded-xl shadow-md bg-gray-50 pb-3 pl-3">
                         <div><img src="images/news-1.png" alt=""></div>
 
                         <small class="text-gray-500">Feb 05, 2027</small>
                         <h2 class="font-bold w-3/5">Collecting 8 points for discount</h2>
-                        <p class="text-gray-500 w-4/5">There are many variations of passages of Lorem Ipsum available.</p>
+                        <p class="text-gray-500 w-4/5">There are many variations of passages of Lorem Ipsum available.
+                        </p>
                         <small class="text-gray-500 font-bold">Learn More</small>
                     </div>
-                    <div class=" text-left my-8 rounded-xl">
+                    <div class=" text-left my-8 rounded-xl shadow-md bg-gray-50 pb-3 pl-3">
                         <div><img src="images/news-2.png" alt=""></div>
 
                         <small class="text-gray-500">Feb 05, 2027</small>
                         <h2 class="font-bold w-3/5">Collecting 8 points for discount</h2>
-                        <p class="text-gray-500 w-4/5">There are many variations of passages of Lorem Ipsum available.</p>
+                        <p class="text-gray-500 w-4/5">There are many variations of passages of Lorem Ipsum available.
+                        </p>
                         <small class="text-gray-500 font-bold">Learn More</small>
                     </div>
-                    <div class=" text-left my-8 rounded-xl">
+                    <div class=" text-left my-8 rounded-xl shadow-md bg-gray-50 pb-3 pl-3">
                         <div><img src="images/news-3.png" alt=""></div>
 
                         <small class="text-gray-500">Feb 05, 2027</small>
                         <h2 class="font-bold w-3/5">Collecting 8 points for discount</h2>
-                        <p class="text-gray-500 w-4/5">There are many variations of passages of Lorem Ipsum available.</p>
-                        <small class="text-gray-500 font-bold">Learn More</small>
+                        <p class="text-gray-500 w-4/5">There are many variations of passages of Lorem Ipsum available.
+                        </p>
+                        <small class="text-gray-500 font-bold ">Learn More</small>
                     </div>
 
 
@@ -289,10 +293,67 @@
         </section>
 
     </main>
-<!-- footer  -->
- <footer>
+    <!-- footer  -->
+    <footer class="bg-orange-100 text-gray-700 py-10 px-4 md:px-16">
+        <div class="w-9/12  mx-auto">
+            <!-- logo -->
+            <div class="mb-8 flex justify-between">
+                <img class="mb-8" src="images/cup.png" alt="">
 
- </footer>
+                <div class="flex items-center gap-2">
+                    <h4 class="">Ready to get strated?</h4>
+                    <button
+                        class="font-semibold bg-gradient-to-r from-orange-500 to-red-500 px-4 py-2 rounded-md text-white">Get
+                        Started</button>
+
+                </div>
+            </div>
+
+            <!-- links -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <!-- first column -->
+                <div>
+                    <h3 class="font-semibold text-lg mb-3">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li class="hover:text-orange-600"><a href="#">home</a></li>
+                        <li class="hover:text-orange-600"><a href="#">About</a></li>
+                        <li class="hover:text-orange-600"><a href="#">Insurance</a></li>
+                        <li class="hover:text-orange-600"><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <!-- Second column -->
+                <div>
+                    <h3 class="font-semibold text-lg mb-3">Our Service </h3>
+                    <ul class="space-y-2">
+                        <li class="hover:text-orange-600"><a href="#">Life Insurance</a></li>
+                        <li class="hover:text-orange-600"><a href="#">Car Insurance</a></li>
+                        <li class="hover:text-orange-600"><a href="#">Health Insurance</a></li>
+                        <li class="hover:text-orange-600"><a href="#">House Insurance</a></li>
+                    </ul>
+                </div>
+                <!-- Third column -->
+                <div>
+                    <h3 class="font-semibold text-lg mb-3">Help</h3>
+                    <ul class="space-y-2">
+                        <li class="hover:text-orange-600"><a href="#">FAQs</a></li>
+                        <li class="hover:text-orange-600"><a href="#">Contact Us</a></li>
+                       
+                    </ul>
+                </div>
+  <!-- fourth column -->
+                <div class="flex flex-col space-y-2">
+                    <div>
+                        <input type="email" placeholder="Email address" class="bg-transparent border-b-2 border-black w-4/6 md:5/6">
+                        <i class="fa-solid fa-chevron-right w-7 bg-orange-600 rounded-full text-white justify-center items-center inline-flex py-2"></i>
+                    </div>
+                </div>
+
+                
+            </div>
+
+        </div>
+
+    </footer>
 
 </body>
 
