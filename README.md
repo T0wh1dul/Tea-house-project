@@ -1,1 +1,1 @@
-**This project was made for the testing of HTML and CSS skills**
+**This project was made for testing HTML and CSS skills**
